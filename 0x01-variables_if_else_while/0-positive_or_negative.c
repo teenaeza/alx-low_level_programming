@@ -7,7 +7,7 @@
 /* more headers goes there */
 /**
  * main - assign a random number to the variable n
- *  Return: 0 is the return value
+ * Return: 0 is the return value
  */
 
 
