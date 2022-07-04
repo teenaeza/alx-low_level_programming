@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - assign a random number
+ * main - assign a random number to the variable n
  * Return: 0 if it is executable
  */
 
