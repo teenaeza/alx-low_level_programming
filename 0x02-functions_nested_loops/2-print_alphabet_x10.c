@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * main - function to print abc 10 times
  *
@@ -6,7 +6,7 @@ nclude "main.h"
  */
 void print_alphabet_x10(void)
 {
-	vhar c, i;
+	char c, i;
 	:wq
 		for (i = 0; i <= 9; i++)
 		{
