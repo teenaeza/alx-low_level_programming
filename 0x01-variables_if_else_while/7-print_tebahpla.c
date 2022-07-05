@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - printing the niumbers in reverse 
+ * main - printing the numbers in reverse 
  * Return: 0 if it is executable
  */
 int main(void)
@@ -14,6 +14,5 @@ int main(void)
 	}
 
 	putchar(10);
-	
-return (0);
+        return (0);
 }
