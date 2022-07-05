@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - printing the numbers in reverse 
  * Return: 0 if it is executable
