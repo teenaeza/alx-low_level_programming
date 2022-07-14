@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpu - copies
+ * _strncpy - copies
  * @dest: buffer
  * @src: source string
  * @n: max num
