@@ -4,6 +4,7 @@
  * main - prints the minimum
  * @argc: no of cl
  * @argv: array
+ * Return: 1 or 0
  */
 int main(int argc, char *argv[])
 {
