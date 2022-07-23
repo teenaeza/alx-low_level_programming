@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints
+ * main - prints the minimum
  * @argc: no of cl
  * @argv: array
  */
