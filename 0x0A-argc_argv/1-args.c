@@ -2,10 +2,10 @@
 /**
  * main - prints
  * @argc: no of args
- * @argv: array of pointers
- * Return: always 0
+ * @argv: array
+ * Return: 0
  */
-int main(int argc, char __atrribute__((__unused__)) *argv[])
+int main(int argc, char __attribute__((unused__)) *argv[])
 {
 	printf("%d\n", argc - 1);
 
