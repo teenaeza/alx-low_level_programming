@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 /**
- * str
- * _concat - concatenates
+ * str_concat - concatenates
  * @s1: first string
  * @s2: second string
  * Return: pointer of an array of chars
@@ -38,6 +37,6 @@ char *str_concat(char *s1, char *s2)
 		for (j = 0; j <= limit; k++, j++)
 			strout[k] = s2[j];
 
-		return (strout)
+		return (strout);
 }
 
