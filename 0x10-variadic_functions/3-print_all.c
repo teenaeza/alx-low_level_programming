@@ -70,14 +70,14 @@ void print_all(const char * const format, ...)
 	char *separator = "";
 	printer_t funcs[] = {
 		{"c", print_char},
-		{"i", print_int}'
-		{"f", print_flat}'
+		{"i", print_int},
+		{"f", print_flat},
 		{"s", print_string}
 	};
 
 	va_start(args, format);
 
-	while (format && (*(format + i )))
+	while (format && (*(format + i)))
 	{
 		j = 0;
 
