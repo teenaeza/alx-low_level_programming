@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-vhar *create_buffer(char *file);
+char *create_buffer(char *file);
 void close_file(int fd);
 /**
  * create_buffer - allocates 1024 bytes for a buffer
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 	}
 
 	buffer = create_buffer(argv[2]);
-	frm = open(argv[1], O_RDONLY);
+	from = open(argv[1], O_RDONLY);
 	r = read(from, buffer, 1024);
 	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
 
 	free(buffer);
 	close_file(from);
-	clos_file(to);
+	close_file(to);
 
 	return (0);
 }
